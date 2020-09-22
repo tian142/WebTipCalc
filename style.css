@@ -1,12 +1,22 @@
 main {
     display: flex;
+    border: 1px solid black;
+    width: min-content;
 }
 
 #inputs {
+    padding: 10px;
     display: flex;
     flex-direction: column;
 }
 
 #results {
-    background-color: lightcoral;
+    align-items: center;
+    width: 100px;
+}
+
+.right-side {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
 }

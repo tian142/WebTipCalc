@@ -9,18 +9,22 @@
     <body>
         <main>
             <div id="inputs">
-                <input id="bill" value="" type="number" placeholder="Bill" />
-                <input id="tip" value="" type="number" placeholder="Tip%" />
-                <input
-                    id="num-people"
-                    type="number"
-                    placeholder="Number of people"
-                />
+                <div class="name">Bill</div>
+                <input id="bill" value="" type="number" />
+                <div class="name">Tip %</div>
+                <input id="tip" value="" type="number" />
+                <div class="name">Number of People</div>
+                <input id="num-people" type="number" />
+                <button>Calculate!</button>
             </div>
             <div id="results">
-                <div id="final-tip">Tip <span id="tipSpan"></span></div>
+                <div id="final-tip" class="right-side">
+                    Tip <span id="tipSpan" class="hidden">0</span>
+                </div>
 
-                <div id="totalCost">Total <span id="totalCostSpan"></span></div>
+                <div id="totalCost" class="right-side">
+                    Total <span id="totalCostSpan" class="hidden">0</span>
+                </div>
             </div>
         </main>
         <script src="index.js"></script>
