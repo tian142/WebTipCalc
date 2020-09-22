@@ -1,0 +1,12 @@
+main {
+    display: flex;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+#results {
+    background-color: lightcoral;
+}
